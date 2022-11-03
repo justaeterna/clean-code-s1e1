@@ -16,7 +16,8 @@
   width: 100%;
 }
 
-.header .info {
+.header
+.info {
   font-family: fantasy, cursive;
 }
 
@@ -44,7 +45,8 @@
   display: flex;
 }
 
-.todo-list, .done-list {
+.todo-list,
+.done-list {
   margin: 0;
   padding: 0px;
 }
@@ -53,7 +55,8 @@
   list-style: none;
 }
 
-.input ,.btn{
+.input,
+.btn{
   outline: none;
 }
 
@@ -82,7 +85,10 @@
   text-transform: uppercase;
 }
 
-.input-new, .input-todo, .input-done, .input-edit {
+.input-new,
+.input-todo,
+.input-done,
+.input-edit {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -95,7 +101,10 @@
   color: #888;
 }
 
-.input-new, .input-todo, .input-done, .input-edit:focus {
+.input-new,
+.input-todo,
+.input-done,
+.input-edit:focus {
   color: #333;
 }
 
@@ -110,7 +119,9 @@
 }
 
 /* Task list */
-.todo-mode, .edit-mode, .done-mode {
+.todo-mode,
+.edit-mode,
+.done-mode {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -119,7 +130,9 @@
   align-items: center;
 }
 
-.task, .input, .btn {
+.task,
+.input,
+.btn {
   vertical-align: middle;
 }
 
@@ -134,17 +147,22 @@
   width: 226px;
 }
 
-.input-new, .input-todo, .input-done, .input-edit {
+.input-new,
+.input-todo,
+.input-done,
+.input-edit {
   width: 226px;
 }
 
-.btn.delete .delete-img {
+.btn.delete
+.delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.delete .delete-img:hover {
+.btn.delete
+.delete-img:hover {
   transform: rotateZ(0);
 }
 
@@ -155,11 +173,14 @@
 }
 
 /* Edit Task */
-.input-todo, .input-done, .input-edit {
+.input-todo,
+.input-done,
+.input-edit {
   display: none;
 }
 
-.edit-mode .input {
+.edit-mode
+.input {
   display: inline-block;
   width: 224px;
 }
