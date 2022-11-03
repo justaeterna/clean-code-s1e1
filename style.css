@@ -167,7 +167,7 @@
 }
 
 /* Completed */
-.done-list label{
+.done-list .task__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -185,6 +185,6 @@
   width: 224px;
 }
 
-.edit__mode label {
+.edit__mode .task__label {
   display: none;
 }
