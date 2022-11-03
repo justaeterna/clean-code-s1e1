@@ -167,7 +167,7 @@
 }
 
 /* Completed */
-.done-mode-label {
+.done-list label{
   text-decoration: line-through;
   color: #888;
 }
