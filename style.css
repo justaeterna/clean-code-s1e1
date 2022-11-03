@@ -20,7 +20,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -45,16 +45,16 @@
 }
 
 .todo-list, .done-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .title {
-  list-style:none;
+  list-style: none;
 }
 
 .input ,.btn{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -156,14 +156,14 @@
 
 /* Edit Task */
 .input-todo, .input-done, .input-edit {
-  display:none
+  display: none
 }
 
 .edit-mode .input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode label {
-  display:none;
+  display: none;
 }
