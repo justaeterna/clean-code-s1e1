@@ -46,6 +46,7 @@ var createNewTaskElement=function(taskString){
     checkBox.className="input-check"
     deleteButton.className="delete btn";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.alt="Image of the delete button";
     deleteButtonImg.className="delete-img"
     deleteButton.appendChild(deleteButtonImg);
 
